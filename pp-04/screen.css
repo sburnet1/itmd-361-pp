@@ -10,34 +10,33 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ===== BASE STYLES ===== */
 
 html {
-  font-size: 1.125em; /* 18px */
-  line-height: 1.188em; /* 19px */
+  font-size: 1.125em; 
+  line-height: 1.188em;
 }
 
 main {
-  padding: 0.5em; /* 5px */
+  padding: 0.5em; 
 }
 
 header h1 {
-  font-size: 1.555em; /* 28px */
-  padding: 0.444em 0.5em; /* 8px */
-
+  font-size: 1.555em; 
+  padding: 0.444em 0.5em;
 }
 
 article h2 {
-  font-size: 1.0625em; /* 17px */
+  font-size: 1.0625em; 
   padding: 0.10625em;
 }
 
 article p {
-  font-size: 1em; /* 16px */
-  line-height: 1.0625em; /* 17px */
-  padding: 0.25em; /* 4px */
+  font-size: 1em; 
+  line-height: 1.0625em; 
+  padding: 0.25em; 
 }
 
 ul {
-  padding-left: 1em; /* 16px */
-  line-height: 1.125em; /* 18px */
+  padding-left: 1em; 
+  line-height: 1.125em; 
 }
 
 li {
