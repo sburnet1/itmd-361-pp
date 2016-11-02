@@ -1,3 +1,31 @@
+
+Skip to content
+This repository
+
+    Pull requests
+    Issues
+    Gist
+
+    @sburnet1
+
+0
+0
+
+    55
+
+msuthar5/itmd-361-pp forked from profstolley/itmd-361-pp
+Code
+Pull requests 0
+Projects 0
+Wiki
+Pulse
+Graphs
+itmd-361-pp/pp-06/screen.css
+1222d94 8 days ago
+@msuthar5 msuthar5 completed number 4
+@msuthar5
+@karlstolley
+125 lines (84 sloc) 2.03 KB
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -28,12 +56,19 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ==== LAYOUT STYLES ==== */
 #content {
-
+  display: flex;
+  align-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
+ 
 }
 
 #three,
 #two,
 #one {
+  display: flex;
+  height: 10vw;
+  width: 10vw;
 
 }
 
@@ -51,8 +86,54 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 @media screen and (min-width: 600px) {
 
-}
+  #content {
+    display: flex;
+    flex-direction: column;  
+    align-items: flex-start;
+   
+  }
+
+  #num_three {
+    display: flex;
+    flex-direction: row-reverse;
+    order: 1;
+    align-items: stretch;
+    width: 100%;
+
+  }
+
+  #one {
+    display: flex;
+    width: 50%;
+  }
+
+  #two {
+    display: flex;
+    width: 50%;
+  }
+
+  #three {
+    display: flex;
+    order: 2;
+    width: 100%;
+
+  }
 
 @media screen and (min-width: 800px) {
 
+  #content {
+    display: flex;
+    flex-direction: row;  
+    align-self: stretch;
+    width: 100;
+
+  }
+  
+  #three,
+  #two,
+  #one {
+    width: 100%;
+
 }
+
+
